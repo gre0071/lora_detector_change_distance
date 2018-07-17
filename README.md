@@ -9,7 +9,6 @@ This detector serves for detection changing distance between device and gateway.
 ![alt text](https://github.com/gre0071/lora_detector_change_distance/blob/master/change_distance.png)
 
 ## Description
-Definujte rozptyl, výchozí hodnotu 10% (0,1).
 ## Interfaces
 - Input: One UniRec interface
 Template must contain fields TIMESTAMP, RSSI, PHY_PAYLOAD.
