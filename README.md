@@ -4,7 +4,7 @@
 ---
 # README
 # LoRaWAN Detection - Change distance
-This detector serves for detection changing distance between device and gateway. Detection is for fixed-position devices, if the attacker transfers the device, the RSSI (Received Signal Strength Indication) changes. This may vary depending on the environment, such as weather. Therefore, it is possible to set the variance for RSSI.
+This detector serves for detection changing distance between device and gateway. Detection is for fixed-position devices, if the attacker transfers the device, the RSSI (Received Signal Strength Indication) changes. This may vary depending on the environment, such as weather. Therefore, it is possible to set the variance for RSSI. Base RSSI value is defined by the first received message from device to detector.
 
 ![alt text](https://github.com/gre0071/lora_detector_change_distance/blob/master/change_distance.png)
 
