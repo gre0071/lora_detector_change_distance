@@ -9,7 +9,7 @@ This detector serves for detection changing distance between device and gateway.
 ![alt text](https://github.com/gre0071/lora_detector_change_distance/blob/master/change_distance.png)
 
 ## Description
-
+Definujte rozptyl, výchozí hodnotu 10% (0,1).
 ## Interfaces
 - Input: One UniRec interface
 Template must contain fields TIMESTAMP, RSSI, PHY_PAYLOAD.
@@ -18,6 +18,9 @@ Template must contain fields TIMESTAMP, RSSI, PHY_PAYLOAD.
 Template contain this fields DEV_ADDR, TIMESTAMP, BASE_RSSI, RSSI, VARIANCE.
   
 ## Parameters
+### Module specific parameters
+- `-a  --variance <double>`         Define variance, default value 10% (0.1).
+
 ### Common TRAP parameters
 - `-h [trap,1]`      Print help message for this module / for libtrap specific parameters.
 - `-i IFC_SPEC`      Specification of interface types and their parameters.
