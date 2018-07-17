@@ -12,10 +12,10 @@ This detector serves for detection changing distance between device and gateway.
 
 ## Interfaces
 - Input: One UniRec interface
-Template must contain fields TIMESTAMP, PHY_PAYLOAD.
+Template must contain fields TIMESTAMP, RSSI, PHY_PAYLOAD.
 
 - Output: One UniRec interface
-Template contain this fields DEV_ADDR, TIMESTAMP, FCNT.
+Template contain this fields DEV_ADDR, TIMESTAMP, BASE_RSSI, RSSI, VARIANCE.
   
 ## Parameters
 ### Common TRAP parameters
