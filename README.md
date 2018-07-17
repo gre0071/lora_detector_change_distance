@@ -8,6 +8,8 @@ This detector serves for detection changing distance between device and gateway.
 
 ![alt text](https://github.com/gre0071/lora_detector_change_distance/blob/master/change_distance.png)
 
+The example shows the attacker's identification where the detector is set to 10% variance. This means that for -119 dBm is variance -11.9 dBm. The minimum value is -130.9 dBm and maximum -107.1 dBm. An attacker is therefore detected because it does not fall within the range.
+
 ## Description
 ## Interfaces
 - Input: One UniRec interface
